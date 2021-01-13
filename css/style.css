@@ -42,3 +42,27 @@
     form button:active {
         background-color: aqua;
     }
+    
+    .container input {
+        width: 83%;
+        height: 35px;
+        margin-bottom: 9px;
+        text-align: right;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .btn {
+        cursor: pointer;
+        text-align: center;
+        background-color: rgb(236, 236, 236);
+        width: 20%;
+        display: inline-block;
+        border: 4px solid white;
+        transition: .4s;
+    }
+    
+    .btn:hover {
+        background-color: rgb(214, 214, 214);
+    }
